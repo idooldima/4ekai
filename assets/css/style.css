@@ -1,33 +1,30 @@
 body {
-  margin: 0;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 17px;
   color: #926239;
   line-height: 1.6;
+  margin: 0px;
+  padding: 0px;
 }
 
 .header {
-  background-image: url("../img/beachshowcase.jpg");
-  width: 195vh;
-  height: 95vh;
-  background-repeat: no-repeat;
+  background-image: url(../img/beachshowcase.jpg);
   background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
   text-align: center;
-  padding: 0 20px;
+  justify-content: center;
+  background-position: center;
+  padding-top: 25vh;
 }
 
 .header h1 {
-  text-align: center;
+  display: block;
   font-size: 50px;
   line-height: 1.2;
 }
 
-.background-text {
+.text-rep {
   font-size: 20px;
 }
 
@@ -46,29 +43,18 @@ body {
   color: aliceblue;
 }
 
-.text-section {
+.zalupa {
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.jopa {
   background-color: #926239;
   color: aliceblue;
-  padding: 20px 20px;
-  text-align: center;
-  justify-content: center;
 }
 
-.text-section2 {
-  padding: 20px 20px;
-  text-align: center;
-  justify-content: center;
-}
-
-.section-idool {
-  padding: 20px;
-  text-align: center;
-}
-
-.popajopa {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 20px;
-  text-align: center;
-  justify-content: center;
+.pizdovoz {
+  display: inline-block;
+  width: 33.333%;
 }
